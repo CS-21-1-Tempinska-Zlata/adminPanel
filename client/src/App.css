@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.categories-container {
+  width: 30%;
+}
+.goods-container {
+  width: 60%;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+
+.category-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-name {
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.good-wrapper {
+  display: flex;
+}
+
+.good-img {
+  width: 100px;
+  height: 100px;
+}
+
+.good {
+  margin-top: 30px;
+}
+.create-wrapper {
+  border-bottom: 2px solid gray;
+  padding-bottom: 30px;
+}
+.good-manage-btn {
+  margin-top: 30px;
+}
+
+.category {
+  margin-top: 20px;
+}
